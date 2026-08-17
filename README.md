@@ -16,22 +16,22 @@
     body {
       min-height: 100vh;
       width: 100%;
-      /* Background setup to fill the entire screen without repeating */
+      /* Background setup to fill the entire screen */
       background-image: url('Pop177.jpg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       background-attachment: fixed;
-      
+
       font-family: 'happytree', sans-serif;
       color: purple;
       text-align: center;
-      
+
       /* Center contents vertically and horizontally */
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-content: center;
+      align-items: center;
       padding: 20px;
     }
 
@@ -62,17 +62,7 @@
 <body>
 
   <h1>Welcome to the web</h1>
-  
-  <div class="loading-text">
-    starting loading web...
-  </div>
-
-  <!-- Button linking to page or image -->
-  <a href="Pop177.jpg">
-    <img src="Pop177.jpg" alt="Enter" class="custom-button">
-  </a>
+  <p class="loading-text">starting loading web...</p>
 
 </body>
 </html>
-
-  
