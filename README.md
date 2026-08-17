@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome</title>
   <style>
-    /* Reset margins and ensure full height */
     * {
       box-sizing: border-box;
       margin: 0;
@@ -16,53 +15,40 @@
     body {
       min-height: 100vh;
       width: 100%;
-      /* Background setup to fill the entire screen */
       background-image: url('Pop177.jpg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       background-attachment: fixed;
-
-      font-family: 'happytree', sans-serif;
-      color: purple;
-      text-align: center;
-
-      /* Center contents vertically and horizontally */
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-end;
       align-items: center;
-      padding: 20px;
+      padding-bottom: 50px;
     }
 
-    h1 {
-      font-size: clamp(1.8rem, 5vw, 3rem);
-      margin-bottom: 15px;
-    }
-
-    .loading-text {
-      font-size: clamp(1rem, 3vw, 1.5rem);
-      margin-bottom: 25px;
-    }
-
-    /* Keeps your button image fitted and responsive */
-    .custom-button {
-      max-width: 80%;
-      height: auto;
+    .enter-button {
       display: inline-block;
-      border: none;
-    }
-
-    a {
-      display: inline-block;
+      padding: 15px 30px;
+      background-color: rgba(128, 0, 128, 0.85);
+      color: white;
       text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: bold;
+      border-radius: 25px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      transition: transform 0.2s ease;
+    }
+
+    .enter-button:hover {
+      transform: scale(1.05);
     }
   </style>
 </head>
 <body>
 
-  <h1>Welcome to the web</h1>
-  <p class="loading-text">starting loading web...</p>
+  <!-- Tap this button to enter the main page -->
+  <a href="main.html" class="enter-button">Enter Web Page</a>
 
 </body>
 </html>
