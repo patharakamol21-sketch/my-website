@@ -47,8 +47,8 @@
 </head>
 <body>
 
-  <!-- Tap this button to enter the main page -->
-  <a href="main.html" class="enter-button">Enter Web Page</a>
+  <!-- Tap this button to enter the main page
+-->
 <a href="Pop177.html" class="enter-button">Enter Web Page</a>
 </body>
 </html>
