@@ -34,7 +34,16 @@ font-family: 'happytree',sans-serif;
   Enter
 </a>
     </div>
+    <!-- add your login from here -->
+<form action="/login" method="POST">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
 
-    <!-- User who use this app or website will be banned from this website -->
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+
+  <button type="submit">Log In</button>
+</form>
+
   </body>
 </html>
